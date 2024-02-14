@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../assets/lws-logo-dark.8e393acf.svg'
+import image from '../../assets/minar.png'
 
 const Header = () => {
     return (
@@ -7,7 +7,7 @@ const Header = () => {
             <div className='container mx-auto flex items-center justify-between gap-x-6'>
                 <a href="/">
                     <img
-                        className='h-[45px]'
+                        className='h-[80px]'
                         src={image} alt="LWS" />
                 </a>
 
